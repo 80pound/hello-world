@@ -24,7 +24,7 @@ git commit -m "Message about your commit"
 git push origin <nameOfBranch>
 
 # you have to get your pull request from the site apparently
-
+# or do it in the desktop app
 
 #####################################
 OPTIONS / CODES
