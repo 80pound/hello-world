@@ -1,0 +1,54 @@
+# TAKE A LOOK AT THE BOTTOM OF THIS FILE FOR THE OPTION CODES
+#
+
+# <cd> to where you want files to be stored
+/Applications/MAMP/htdocs/NEWGIT
+
+#if its new <clone> that sucker
+git clone https://github.com/<repositorypath>
+
+#<cd> into that directory "repositorypath"
+cd repositorypath
+
+# make a <branch>
+git checkout -b <branch>
+
+# edit whatever <file> how you want
+# <add> it to the list of things you want to commit
+git add <file>
+
+#<commit> all your files
+git commit -m "Message about your commit"
+
+#<push> your edits for review
+git push origin <nameOfBranch>
+
+# you have to get your pull request from the site apparently
+
+
+#####################################
+OPTIONS / CODES
+-b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --guess               second guess 'git checkout <no-such-branch>' (default)
+    --overlay             use overlay mode (default)
+    -q, --quiet           suppress progress reporting
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+    -m, --merge           perform a 3-way merge with the new branch
+    --conflict <style>    conflict style (merge or diff3)
+    -d, --detach          detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    -f, --force           force checkout (throw away local modifications)
+    --orphan <new-branch>
+                          new unparented branch
+    --overwrite-ignore    update ignored files (default)
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
